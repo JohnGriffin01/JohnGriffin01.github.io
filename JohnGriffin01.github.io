@@ -6,8 +6,6 @@
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/mypage.css">
-
-<!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <!-- Popper JS -->
@@ -15,7 +13,7 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <title>About Me</title>
+    <title>Form</title>
   </head>
   <body>
     <div class="container">
@@ -23,73 +21,79 @@
 
   <!-- Links -->
   <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="#mypage_bootstrap.html">Home</a>
-    </li>
+    <li class="nav-item"><a href="mypage_bootstrap.html">Home</a></li>
   </ul>
+
 </nav>
 
 
-    <h1>Griffin, John - <small class = "text-muted"> Software Development Methods and Tools</small></h1>
 
-    <div class="card bg-light text-dark">
-      <div class="card-body">
-        I used to work at Walt Disney World, I am passionate about animation and code, I've been skydiving. I am studying Computer Science/TAM because I enjoy coding and am currently seeking a software engineering internship.
+    <h1>Add New Interest</h1>
+    <form>
+      <div class="form-row">
+        <div class="form-group col-lg-10">
+          <label for="inputEmail4">Interest Name</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Name">
+        </div>
       </div>
+      <div class="form-group">
+        <label for="inputAddress">Text About Interest</label>
+        <input type="text" class=" form-control form-control-lg input-mysize" id="inputAddress">
+      </div>
+
+      <div class="form-row">
+          <div class="col">
+            <p>Upload local image:</p>
+            <input type="file" id="myFile" name="filename2">
+          </div>
+          <div class="col">
+            <p>Select # Tweets to display</p>
+            <select class="form-control" id="sel1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+          </div>
+        </div>
+        <p>On a scale of 1-5, how interested in this are you?</p>
+        <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  <label class="form-check-label" for="inlineCheckbox1">1</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+  <label class="form-check-label" for="inlineCheckbox2">2</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+  <label class="form-check-label" for="inlineCheckbox3">3</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option4">
+  <label class="form-check-label" for="inlineCheckbox3">4</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option5">
+  <label class="form-check-label" for="inlineCheckbox3">5</label>
+</div>
+
+<p>Login to Finish Submitting</p>
+<div class="form-row">
+    <div class="col">
+      <input type="text" name="" placeholder="Username" >
     </div>
-    <h2>My Professional Portfolio</h2>
-    <button type="button" class="btn btn-outline-secondary"><a href="https://github.com/JohnGriffin01">John's github</a></button>
-
-    <img src="portraitlarge.png" class="rounded-circle"alt="self portrait" height="600" width="500">
-    <h3>My Favorite Projects</h3>
-    <table class = "table" >
-      <tr>
-        <th>#</th>
-        <th>Name of the Project</th>
-        <th>Technology Used</th>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>Hotel Lobby</td>
-          <td>Maya</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Personal website</td>
-          <td>HTML, CSS, javascript</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Text adventure game</td>
-          <td>C++</td>
-        </tr>
-
-    </table>
-
-    <h3>My Interests</h3>
-    <div class="interests">
-    <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="img/buzz.jpg" alt="animation cap">
-  <div class="card-body">
-    <h5 class="card-title">Animation</h5>
-    <p class="card-text">I like Animation because I can be creative and and build things in Maya</p>
+    <div class="col">
+      <input type="password" name="" placeholder="Password">
+    </div>
   </div>
-</div>
-<div class="card" style="width: 18rem;">
-<img class="card-img-top" src="img/animalcrossing.jpg" alt="animal crossing cap">
-<div class="card-body">
-<h5 class="card-title">Video Games</h5>
-<p class="card-text">I like Video Games because they are relaxing</p>
-</div>
-</div>
-<div class="card" style="width: 18rem;">
-<img class="card-img-top" src="img/disneycastle.jpg" alt="disney cap">
-<div class="card-body">
-<h5 class="card-title">Disney</h5>
-<p class="card-text">I like Disney because it's magical</p>
-</div>
-</div>
-</div>
-<button type="button" name="button"><a href="form.html">Add Interest</a></button>
+
+
+
+      <div class="mt-3">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+      </form>
+        </div>
   </body>
 </html>
