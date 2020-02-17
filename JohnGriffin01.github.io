@@ -69,14 +69,14 @@
     <h3>My Interests</h3>
     <div class="interests">
     <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="buzz.jpg" alt="animation cap">
+  <img class="card-img-top" src="img/buzz.jpg" alt="animation cap">
   <div class="card-body">
     <h5 class="card-title">Animation</h5>
     <p class="card-text">I like Animation because I can be creative and and build things in Maya</p>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
-<img class="card-img-top" src="animalcrossing.jpg" alt="animal crossing cap">
+<img class="card-img-top" src="img/animalcrossing.jpg" alt="animal crossing cap">
 <div class="card-body">
 <h5 class="card-title">Video Games</h5>
 <p class="card-text">I like Video Games because they are relaxing</p>
