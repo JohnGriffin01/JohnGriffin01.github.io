@@ -1,0 +1,88 @@
+*,
+*:before,
+*:after {
+ padding: 0;
+ margin: 0;
+}
+
+body{
+  padding-top: 10vw;
+  background-color: #5D5C61;
+  text-align: center;
+  display: block;
+  padding:
+
+}
+h1{
+  font-size: 3em;
+  font-family: 'Titillium Web', Helvetica, sans-serif;
+  text-align: center;
+  color: #557A95;
+}
+h2{
+  font-size: 2em;
+  padding: 2vw;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #7395AE;
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #B1A296;
+}
+ul{
+  text-decoration: none;
+}
+a{
+  font-family: 'Titillium Web', Helvetica, sans-serif;
+  font-size: 150%;
+  text-decoration: none!important;
+  color: #7395AE;
+}
+a:hover{
+  color: #557A95;
+}
+a:active{
+  color: #7395AE;
+  background-color: #7395AE;
+}
+li{
+  text-decoration: none !important;
+}
+img{
+  max-width: 100%; height: auto;
+}
+#navlinks{
+  background-color: #379683;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  justify-content: space-around;
+  padding: 4px;
+
+}
+.disneypic1{
+  transform: rotate(45);
+}
+@media screen and (max-width: 850px)
+{
+  a:hover{
+      color: #379683;
+  }
+  img{
+    max-width: 100%; height: auto;
+  }
+  h1 h2, h3, a, img, body{
+    font-family: sans-serif;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5vw;
+  }
+
+}
